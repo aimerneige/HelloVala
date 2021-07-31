@@ -8,6 +8,10 @@ public class Main : Gtk.Application {
 	}
 
 	protected override void activate () {
+		build_window ();
+	}
+
+	private void build_window () {
 		var window = new Gtk.ApplicationWindow (this);
 		window.title = "Hello World";
 		window.window_position = Gtk.WindowPosition.CENTER;
