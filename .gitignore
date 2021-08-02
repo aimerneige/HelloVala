@@ -2,3 +2,4 @@
 03.UseClass/main
 04.UseMultiFile/myapp
 */build/*
+*/builddir/*
